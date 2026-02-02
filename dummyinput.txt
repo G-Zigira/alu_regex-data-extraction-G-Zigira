@@ -1,0 +1,199 @@
+CUSTOMER SUPPORT CHAT LOG - CASE #2025-02-03-B9187
+=================================================
+
+Date: February 3, 2025
+Time: 09:12:08
+Agent: Daniel Moore (daniel.moore@helpsphere.io)
+Customer: Aisha Patel
+
+---
+
+[09:12] Agent joins conversation
+
+AGENT: Good morning! Welcome to HelpSphere Support. My name is Daniel. 
+Before we begin, could you please confirm your registered email?
+
+CUSTOMER: Hi Daniel! Sure — it’s aisha.patel92@email.com. I’m seeing some strange charges.
+
+AGENT: Thanks, Aisha. I’ve located your account. For verification, can you confirm the phone number 
+we have on file? It should end in 4412.
+
+CUSTOMER: That one’s old. My current number is (646) 555-4412. I also have an international number: 
++91 22 6789 1234.
+
+AGENT: Perfect, updated. I see a transaction for $399.00 dated February 1st. 
+Is that the one you're calling about?
+
+CUSTOMER: Yes, that’s one of them. It was supposed to be $39.00. There’s also a charge for 
+$8,765.43 that I definitely didn’t approve.
+
+AGENT: I understand — let me review the transaction history. The $399.00 payment was processed 
+at 11:18 AM on your card ending in 7821. Does that sound right?
+
+CUSTOMER: Yes, that’s my card: 7821-4567-9821-3344. But I never approved $8,765.43!
+
+AGENT: Checking our logs now. The purchase was made through 
+https://www.helpsphere.io/store/checkout at exactly 11:18:52, and a receipt was emailed to you.
+
+CUSTOMER: I visited https://support.helpsphere.io/faq and 
+https://helpsphere.io/plans/standard — but I never completed checkout for that amount.
+
+AGENT: Understood. Could you tell me what device you were using?
+
+CUSTOMER: My desktop computer. I also logged in later from my phone at 6:45 PM using 
+https://m.helpsphere.io.
+
+---
+
+SYSTEM AUDIT LOGS:
+[11:18:52] Authentication successful - IP: 10.0.0.214
+[11:19:10] Page viewed: https://helpsphere.io/plans/standard
+[11:19:58] Cart modified: Added subscription ($399.00)
+[11:20:31] Checkout confirmed
+[11:20:59] Payment completed: $399.00 - Card ending 7821
+[09:12:00] Support chat opened
+[09:27:44] Refund authorized: $360.00
+
+---
+
+AGENT: Thanks for waiting, Aisha. The $399.00 charge is valid, but the amount is incorrect. 
+The $8,765.43 charge does not appear in our system — it may belong to another merchant.
+
+CUSTOMER: Checking now… oh wow, you’re right. That charge is from 
+GlobalTravelHub.com — my bad!
+
+AGENT: No worries at all. I’ve issued a partial refund of $360.00 for the pricing error. 
+You’ll receive confirmation at aisha.patel92@email.com within 3–5 business days.
+
+CUSTOMER: That’s great, thank you! Can I also get a text confirmation?
+
+AGENT: Absolutely. We’ll notify you at (646) 555-4412. Anything else I can help with?
+
+CUSTOMER: Yes — I want to add my business partner as an authorized user. 
+Her email is leonard.kim@enterprise-group.co.kr.
+
+AGENT: Sure thing. What’s her contact number?
+
+CUSTOMER: +82 2 3456 7890. She’s in Seoul.
+
+AGENT: Perfect. Invitation sent to leonard.kim@enterprise-group.co.kr.
+
+---
+
+EXTRA NOTES FROM CHAT:
+
+Customer follows HelpSphere on social media using hashtags #HelpSphere and #SupportDoneRight.
+Official channels include https://twitter.com/helpsphere and 
+https://blog.helpsphere.io/news/2025/february.
+
+Documents requested to aisha.patel92@email.com and CC admin@helpsphere.io.
+
+---
+
+INVALID / MALICIOUS INPUT DETECTED:
+
+[ALERT] SQL payload detected: root@localhost'; DROP DATABASE prod; --
+[ALERT] Script injection attempt: <script>fetch('/steal')</script>
+[ALERT] Invalid phone: 999-XYZ-0000
+[ALERT] Fake card number: 1111-1111-1111-1111
+[ALERT] Broken email: user@domain.
+[ALERT] Invalid time format: 88:77:66
+[ALERT] Currency exploit: $<iframe src=evil>
+[ALERT] HTML injection: <svg onload=alert(1)>
+[ALERT] Malformed hashtag: #<img>
+[ALERT] Unsafe protocol: data:text/html;base64
+[ALERT] SQL in phone: 555-1212; SELECT * FROM users;
+
+---
+
+SOCIAL MEDIA REFERENCES:
+
+Limited-time offer! Pro plan only $59.99/month — previously $129.99! 
+#HelpSphere #Promo #TechDeals2025
+
+Customer review:
+"Support chat at 10:00 AM, resolved by 10:40 AM. Fantastic help!
+Email: happy.client@feedback-mail.com Phone: (877) 555-3344" #FiveStars
+
+Partners:
+- SecureStack Ltd: https://www.securestack.io/products
+- NovaCloud: https://novacloud.net/pricing
+- CodeForge Labs: https://codeforge.dev/api/reference
+
+---
+
+BACKEND PAYMENT RECORDS:
+
+Payment A: $59.99 (approved)
+Payment B: $240.75 (approved)
+Payment C: $3,499.00 (pending review)
+Payment D: $1.49 (approved)
+Payment E: $9,999.99 (flagged)
+
+Stored payment methods:
+- Visa: 7821-4567-9821-3344 (expires 11/27)
+- Mastercard: 5105-1051-0510-5100 (expires 08/26)
+- Amex: 3400-987654-32109 (expires 04/25)
+
+---
+
+CONTACT SUMMARY:
+
+Primary: aisha.patel92@email.com | (646) 555-4412
+Secondary: a.patel@business-mail.org | +91-22-6789-1234
+Emergency: contact.person@family-mail.net | 646.555.8899
+
+Support Staff:
+- Daniel Moore: daniel.moore@helpsphere.io | (646) 100-3301
+- Olivia Brown: olivia.brown@helpsphere.io | 646-100-3302
+- Marcus Lee: m.lee@helpsphere.io | (646) 100-3303
+
+Web: https://www.helpsphere.io
+Help Center: https://support.helpsphere.io
+API Docs: https://api.helpsphere.io/v3/docs
+Mobile App: https://app.helpsphere.io/install
+
+Hours: Mon–Fri 8:30 AM–6:00 PM, Sat 9:00 AM–1:00 PM
+
+---
+
+REGEX VALIDATION SAMPLES:
+
+Valid:
+- Time: Call at 08:15, follow-up at 13:45, dinner at 9:30 PM
+- URL: https://www.python.org/dev/peps/
+- Hashtag: #Regex101 #ParsingText #DevLife2025
+- Currency: $7.50, $89.99, $1,250.00, $10,000.00
+- Email: admin@my-site.net, user.name@sub.mail.org
+- Phone: +1-646-555-7890, +82-2-3456-7890
+
+Invalid:
+- Email: user@, user@domain..com, user@@mail.com
+- URL: htttp://bad.com, https:missing.com
+- Phone: 12345, 555-NOW-CALL
+- Card: 1234-5678, 4444-4444-4444-444Z
+- Time: 26:00, 12:75 PM
+- Currency: $$$, $12.999
+- Hashtag: #, #2025
+- Injection: <script>, ../../../../boot.ini
+
+---
+
+END OF CHAT LOG
+Case Status: CLOSED
+Resolution Time: 35 minutes
+Customer Rating: 4.8/5
+Follow-up Required: No
+
+Luhn validation samples (mixed pass/fail):
+
+4532 0151 1283 0366
+4111 1111 1111 1111
+5500 0000 0000 0004
+6011 1234 5678 9012
+3782 822463 10005
+4532 0151 1283 0367
+4111 1111 1111 1112
+5500 0000 0000 0000
+6011 1234 5678 9010
+3782 822
